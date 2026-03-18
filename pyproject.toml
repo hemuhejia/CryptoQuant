@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptoquant"
+version = "0.1.0"
+description = "Hyperliquid quantitative trading system reference implementation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["cryptoquant"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
